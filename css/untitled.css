@@ -1,0 +1,169 @@
+.scroll-p {
+  overflow: scroll;
+}
+
+@ {
+}
+
+@media (max-width: 990px) {
+  .btn-navbar {
+    margin-top: 10px;
+  }
+}
+
+.navbar {
+  font-family: 'Product Sans';
+  padding: 15px 20px 15px 35px;
+  width: 75%;
+  border: 2px solid #000;
+  border-radius: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  height: auto;
+  background: #fff;
+}
+
+.main-title {
+  padding-top: 43px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.main {
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 600;
+}
+
+.btn-navbar {
+  display: inline-block;
+  padding: 0 20px;
+  justify-content: space-around;
+  border-radius: 90px;
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: .6px;
+  cursor: pointer;
+  height: 59.7969px;
+}
+
+.green-section {
+  border-bottom: 2px solid #333;
+  border-top: 2px solid #333;
+  margin-top: 5%;
+  background: #e5f2e4;
+}
+
+.image-1 {
+  margin-top: -38px;
+}
+
+@media (max-width: 991px) {
+  .image-1 {
+    margin-top: -25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-1 {
+    display: none;
+  }
+}
+
+.image-1 {
+  margin-top: -25px;
+}
+
+footer {
+  height: 15%;
+  background: #333;
+}
+
+.footer-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding: 40px 5% 48px;
+}
+
+.footer-wrapper {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.div-footer {
+  margin-top: -34px;
+  object-fit: cover;
+  /*height: 80px;*/
+  width: 100%;
+}
+
+@media (max-width: 479px) {
+  .div-footer {
+    margin-top: -20px;
+    /*height: 60px;*/
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .div-footer {
+    /*height: 70px;*/
+    margin-top: -34px;
+    object-fit: cover;
+  }
+}
+
+.testimonials {
+  position: relative;
+  max-width: 1000px;
+  border: 2px solid #333;
+  border-radius: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.testimony {
+  padding-top: 14px;
+  padding-bottom: 20px;
+  border: 2px solid #333;
+  border-radius: 20px;
+}
+
+.main-img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  padding-right: 0;
+  border: 4px solid #333;
+  border-radius: 340px;
+  background: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .main-img {
+    justify-self: center;
+  }
+}
+
+.blue-section {
+  background: #dde9f2;
+  border-bottom: 2px solid #333;
+}
+
+.yellow-section {
+  background: #fcf3e0;
+  border-bottom: 2px solid #333;
+}
+
+.purple-section {
+  background: #DDE3F3;
+}
+
