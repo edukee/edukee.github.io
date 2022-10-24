@@ -2,9 +2,6 @@
   overflow: scroll;
 }
 
-@ {
-}
-
 @media (max-width: 990px) {
   .btn-navbar {
     margin-top: 10px;
@@ -121,7 +118,7 @@ footer {
   }
 }
 
-.testimonials {
+.white-card {
   position: relative;
   max-width: 1000px;
   border: 2px solid #333;
@@ -165,5 +162,13 @@ footer {
 
 .purple-section {
   background: #DDE3F3;
+}
+
+vid_btn {
+  background: var(--bs-border-color-translucent);
+}
+
+.btn_vid {
+  font-size: x-large;
 }
 
