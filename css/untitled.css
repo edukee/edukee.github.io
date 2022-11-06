@@ -172,3 +172,25 @@ vid_btn {
   font-size: x-large;
 }
 
+.testimony::-webkit-scrollbar {
+  width: 5px;
+}
+
+.p_testimony {
+  width: 95%;
+  overflow-y: scroll;
+  height: 100%;
+  margin: 16px;
+  padding: 0 10px;
+}
+
+.ev_row {
+  padding: 0 100px;
+}
+
+@media (max-width: 428px) {
+  .ev_row {
+    padding: 0;
+  }
+}
+
