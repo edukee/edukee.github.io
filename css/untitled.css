@@ -195,7 +195,6 @@ vid_btn {
 }
 
 .scroll-shadows {
-  max-height: 200px;
   overflow: auto;
 
   background:
@@ -230,7 +229,6 @@ vid_btn {
   background-attachment: local, local, scroll, scroll;
 }
 .scroll-shadows-green {
-  max-height: 200px;
   overflow: auto;
 
   background:
@@ -265,7 +263,6 @@ vid_btn {
   background-attachment: local, local, scroll, scroll;
 }
 .scroll-shadows-yellow {
-  max-height: 200px;
   overflow: auto;
 
   background:
@@ -300,7 +297,6 @@ vid_btn {
   background-attachment: local, local, scroll, scroll;
 }
 .scroll-shadows-blue {
-  max-height: 200px;
   overflow: auto;
 
   background:
@@ -335,7 +331,6 @@ vid_btn {
   background-attachment: local, local, scroll, scroll;
 }
 .scroll-shadows-pink {
-  max-height: 200px;
   overflow: auto;
 
   background:
