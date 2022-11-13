@@ -197,8 +197,6 @@ vid_btn {
 .scroll-shadows {
   max-height: 200px;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  overflow-scrolling: touch;
 
   background:
     /* Shadow Cover TOP */
