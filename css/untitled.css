@@ -413,7 +413,7 @@ vid_btn {
   list-style: none;
   animation: animate 25s ease-in infinite;
   color: #333;
-  left: -5vw;
+  left: -15vw;
 }
 .waterfall li:nth-child(1){
   top: 25%;
@@ -463,7 +463,7 @@ vid_btn {
   }
 
   100%{
-      transform: translateX(105vw);
+      transform: translateX(115vw);
       opacity: 0.2;
   }
 
