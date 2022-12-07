@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/untitled.css">
 </head>
 
-<body class="container-fluid" style="background-position: 0px;--bs-body-bg: #fbdef9;--bs-body-color: #333;--bs-primary: #333;--bs-primary-rgb: 51,51,51;--bs-success: #1eb53a;--bs-success-rgb: 30,181,58;--bs-warning: #e8112d;--bs-warning-rgb: 232,17,45;font-family: 'Product Sans';padding: 0;margin: auto;overflow-x: hidden;">
+<body style="--bs-body-bg: #fbdef9;--bs-body-color: #333;--bs-primary: #333;--bs-primary-rgb: 51,51,51;--bs-success: #1eb53a;--bs-success-rgb: 30,181,58;--bs-warning: #e8112d;--bs-warning-rgb: 232,17,45;font-family: 'Product Sans';padding: 0;margin: auto;overflow-x: hidden;background: #ffe3fd;">
     <nav class="navbar navbar-light navbar-expand-lg sticky-top d-md-flex align-items-md-start">
         <div class="container-fluid"><a class="navbar-brand" href="/" style="font-weight: bold;font-size: 24px;">Elisa Duke</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse d-lg-flex d-xl-flex d-xxl-flex justify-content-lg-end justify-content-xl-end justify-content-xxl-end" id="navcol-1">
@@ -38,40 +38,153 @@
             </div>
         </div>
     </nav>
-    <header class="main-title">
+    <header class="main-title" style="height: auto;">
         <div class="row" style="padding-right: 7%;padding-left: 7%;">
             <div class="col">
                 <h1 style="margin-bottom: 30px;">Plannings</h1>
             </div>
         </div>
     </header>
-    <section class="green-section" style="height: 500px;padding: 50px 0;margin-top: 0;">
-        <div class="row" style="width: 90%;height: 100%;margin-right: auto;margin-left: auto;">
-            <div class="col-6 offset-xl-0" style="padding: 0;height: auto;">
-                <picture src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" style="width: 100%;height: 100%;" src="https://www.educima.com/imagen-profesora-dm30229.jpg"></picture>
-            </div>
-            <div class="col" style="height: 100%;">
-                <p class="scroll-shadows-green" style="width: 100%;overflow-y: scroll;height: 100%;">What is Lorem Ipsum?<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br><br><br>Why do we use it?<br><br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br><br><br><br><br><br>Where does it come from?<br><br>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br><br><br><br>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    <section class="section green-section" style="padding: 20px 0;border-bottom: 2px solid #333;border-top: 2px solid #333;margin: 0;">
+        <!-- Unit -->
+        <div class="container" style="padding: 0;width: 100%;">
+            <div class="row row-cols-1" style="padding: 0;width: 100%;margin: 0;">
+                <div class="col" style="margin: 5px 0;padding: 5px;width: 100%;">
+                    <div class="testimony" style="background-color: #fff;padding-top: 20px;padding-bottom: 20px;">
+                        <h2 class="fw-bold text-start" style="font-weight: 500;padding-left: 20px;">Colonial Heritage</h2>
+                        <p class="scroll-shadows" style="overflow-y: scroll;height: auto;margin: 10px 20px;padding-right: 10px;">
+                            This lesson is centered on the students because students are responsible of their learning, they must be able to be experts about their colonial heritage/patrimony, and then teach the rest of the class about that corresponding patrimony. If students are not able to organize themselves as a group and reflect, they will not be able to achieve the goal of the class.
+                        </p>
+                        <div class="text-start"><button class="btn btn-primary" type="button" style="margin: 10px 20px;margin-bottom: 0;margin-top: 10px;padding-right: 17px;padding-left: 17px;background: #fed9db;border: 2px solid rgb(51,51,51);color: rgb(51,51,51);" data-bs-target="#doc-1" data-bs-toggle="modal">Document&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-2" style="margin-top: -6px;margin-bottom: -3px;color: rgb(51,51,51);">
+                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                    <path d="M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z"></path>
+                                </svg></button>
+                            <div class="modal fade" role="dialog" tabindex="-1" id="doc-1">
+                                <div class="modal-dialog modal-xl modal-fullscreen-lg-down" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Document</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body" style="height: 68vh;"><embed src="https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/mobile-web-serverless-RA.pdf#toolbar=0&navpanes=0&statusbar=0" frameborder="0" width="100%" height="100%"/>"></div>
+                                        <div class="modal-footer"><button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    <section class="yellow-section" style="height: 500px;padding: 50px 0;">
-        <div class="row" style="width: 90%;height: 100%;margin-right: auto;margin-left: auto;">
-            <div class="col" style="height: 100%;">
-                <p class="scroll-shadows-yellow" style="width: 100%;overflow-y: scroll;height: 100%;">What is Lorem Ipsum?<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br><br><br>Why do we use it?<br><br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br><br><br><br><br><br>Where does it come from?<br><br>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br><br><br><br>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-            </div>
-            <div class="col-6 offset-lg-0 offset-xl-0" style="padding: 0;height: auto;">
-                <picture src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" style="width: 100%;height: 100%;" src="https://www.educima.com/imagen-profesora-dm30229.jpg"></picture>
+        <div class="container" style="padding: 0;width: 100%;">
+            <div class="row row-cols-1" style="padding: 0;width: 100%;margin: 0;">
+                <div class="col" style="margin: 5px 0;padding: 5px;width: 100%;">
+                    <div class="testimony" style="background-color: #fff;padding-top: 20px;padding-bottom: 20px;">
+                        <h2 class="fw-bold text-start" style="font-weight: 500;padding-left: 20px;">Problem Solving</h2>
+                        <p class="scroll-shadows" style="overflow-y: scroll;height: auto;margin: 10px 20px;padding-right: 10px;">
+                            This class in centered on word problems of the four operations (addition, subtraction, multiplication, and division). The goal of this class is to practice and remember the steps students need to follow to be able to answer a word problem successfully. This class is more teacher centered because I think that sometimes students also need explanations from the teacher and not always be students the ones that solve how to do it, since in this case not understanding word problems would make students develop anxiety and stress.
+                        </p>
+                        <div class="text-start"><button class="btn btn-primary" type="button" style="margin: 10px 20px;margin-bottom: 0;margin-top: 10px;padding-right: 17px;padding-left: 17px;background: #fed9db;border: 2px solid rgb(51,51,51);color: rgb(51,51,51);" data-bs-target="#doc-1" data-bs-toggle="modal">Document&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-2" style="margin-top: -6px;margin-bottom: -3px;color: rgb(51,51,51);">
+                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                    <path d="M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z"></path>
+                                </svg></button>
+                            <div class="modal fade" role="dialog" tabindex="-1" id="doc-1">
+                                <div class="modal-dialog modal-xl modal-fullscreen-lg-down" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Document</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body" style="height: 68vh;"><embed src="https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/mobile-web-serverless-RA.pdf#toolbar=0&navpanes=0&statusbar=0" frameborder="0" width="100%" height="100%"/>"></div>
+                                        <div class="modal-footer"><button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    <section class="blue-section" style="height: 500px;padding: 50px 0;">
-        <div class="row" style="width: 90%;height: 100%;margin-right: auto;margin-left: auto;">
-            <div class="col-6 offset-xl-0" style="padding: 0;height: auto;">
-                <picture src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" style="width: 100%;height: 100%;" src="https://www.educima.com/imagen-profesora-dm30229.jpg"></picture>
+        <div class="container" style="padding: 0;width: 100%;">
+            <div class="row row-cols-1" style="padding: 0;width: 100%;margin: 0;">
+                <div class="col" style="margin: 5px 0;padding: 5px;width: 100%;">
+                    <div class="testimony" style="background-color: #fff;padding-top: 20px;padding-bottom: 20px;">
+                        <h2 class="fw-bold text-start" style="font-weight: 500;padding-left: 20px;">Gas Exchange</h2>
+                        <p class="scroll-shadows" style="overflow-y: scroll;height: auto;margin: 10px 20px;padding-right: 10px;">
+                            This class is a very concrete class where students must inquire and then make a real model about the gas exchange. I think that, especially in Natural Science, we need more of these types of activities because they make students construct their learning based on a fun activity and a concrete way in which they can represent what they are learning. This way the learning is more meaningful for them.
+                        </p>
+                        <div class="text-start"><button class="btn btn-primary" type="button" style="margin: 10px 20px;margin-bottom: 0;margin-top: 10px;padding-right: 17px;padding-left: 17px;background: #fed9db;border: 2px solid rgb(51,51,51);color: rgb(51,51,51);" data-bs-target="#doc-1" data-bs-toggle="modal">Document&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-2" style="margin-top: -6px;margin-bottom: -3px;color: rgb(51,51,51);">
+                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                    <path d="M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z"></path>
+                                </svg></button>
+                            <div class="modal fade" role="dialog" tabindex="-1" id="doc-1">
+                                <div class="modal-dialog modal-xl modal-fullscreen-lg-down" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Document</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body" style="height: 68vh;"><embed src="https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/mobile-web-serverless-RA.pdf#toolbar=0&navpanes=0&statusbar=0" frameborder="0" width="100%" height="100%"/>"></div>
+                                        <div class="modal-footer"><button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col" style="height: 100%;">
-                <p class="scroll-shadows-blue" style="width: 100%;overflow-y: scroll;height: 100%;">What is Lorem Ipsum?<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br><br><br>Why do we use it?<br><br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br><br><br><br><br><br>Where does it come from?<br><br>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br><br><br><br>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+        </div>
+        <div class="container" style="padding: 0;width: 100%;">
+            <div class="row row-cols-1" style="padding: 0;width: 100%;margin: 0;">
+                <div class="col" style="margin: 5px 0;padding: 5px;width: 100%;">
+                    <div class="testimony" style="background-color: #fff;padding-top: 20px;padding-bottom: 20px;">
+                        <h2 class="fw-bold text-start" style="font-weight: 500;padding-left: 20px;">Exam Social Science on Educación Cívica</h2>
+                        <p class="scroll-shadows" style="overflow-y: scroll;height: auto;margin: 10px 20px;padding-right: 10px;">
+                            This is a planning for a whole unit of civic education in Chile. The unit consists in 6 inquiry classes where students will try to answer the question: ¿Cómo se caracteriza al Chile democrático? By doing different types of activities, including inquiry, model, charts, reading, creating an essay, among others. The unit has different types of assessments, formative and summative. These are critical for informing the teacher and students of their progress class by class. First, you will find a summary of the whole unit and then you are going to find the details of three of the lessons with their corresponding materials.
+                        </p>
+                        <div class="text-start"><button class="btn btn-primary" type="button" style="margin: 10px 20px;margin-bottom: 0;margin-top: 10px;padding-right: 17px;padding-left: 17px;background: #fed9db;border: 2px solid rgb(51,51,51);color: rgb(51,51,51);" data-bs-target="#doc-1" data-bs-toggle="modal">Document&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-2" style="margin-top: -6px;margin-bottom: -3px;color: rgb(51,51,51);">
+                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                    <path d="M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z"></path>
+                                </svg></button>
+                            <div class="modal fade" role="dialog" tabindex="-1" id="doc-1">
+                                <div class="modal-dialog modal-xl modal-fullscreen-lg-down" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Document</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body" style="height: 68vh;"><embed src="https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/mobile-web-serverless-RA.pdf#toolbar=0&navpanes=0&statusbar=0" frameborder="0" width="100%" height="100%"/>"></div>
+                                        <div class="modal-footer"><button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="padding: 0;width: 100%;">
+            <div class="row row-cols-1" style="padding: 0;width: 100%;margin: 0;">
+                <div class="col" style="margin: 5px 0;padding: 5px;width: 100%;">
+                    <div class="testimony" style="background-color: #fff;padding-top: 20px;padding-bottom: 20px;">
+                        <h2 class="fw-bold text-start" style="font-weight: 500;padding-left: 20px;">Comprensión Lectora</h2>
+                        <p class="scroll-shadows" style="overflow-y: scroll;height: auto;margin: 10px 20px;padding-right: 10px;">
+                            This class is a more traditional way of teaching where the teacher teaches a content and then students must complete a worksheet. However, you will find two aspect that will make this class much more meaningful for students. First, before the teacher teaches what is explicit and implicit, she shows real examples and make students reflect and get to a real definition and example of explicit and implicit types of questions. Second, the worksheet has a text and questions that are more challenging, so students can see that they can achieve challenging things and that they are not always going to do fun activities to learn.
+                        </p>
+                        <div class="text-start"><button class="btn btn-primary" type="button" style="margin: 10px 20px;margin-bottom: 0;margin-top: 10px;padding-right: 17px;padding-left: 17px;background: #fed9db;border: 2px solid rgb(51,51,51);color: rgb(51,51,51);" data-bs-target="#doc-1" data-bs-toggle="modal">Document&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-2" style="margin-top: -6px;margin-bottom: -3px;color: rgb(51,51,51);">
+                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                    <path d="M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z"></path>
+                                </svg></button>
+                            <div class="modal fade" role="dialog" tabindex="-1" id="doc-1">
+                                <div class="modal-dialog modal-xl modal-fullscreen-lg-down" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Document</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body" style="height: 68vh;"><embed src="https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/mobile-web-serverless-RA.pdf#toolbar=0&navpanes=0&statusbar=0" frameborder="0" width="100%" height="100%"/>"></div>
+                                        <div class="modal-footer"><button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -83,8 +196,9 @@
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/bold-and-bright.js"></script>
+    <script src="js/untitled.js"></script>
 </body>
 
 </html>
