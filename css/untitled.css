@@ -180,6 +180,7 @@ footer {
 @media (max-width: 991px) {
   .main-img {
     justify-self: center;
+    max-width: 50%;
   }
 }
 
