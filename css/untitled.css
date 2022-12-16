@@ -469,3 +469,50 @@ vid_btn {
   }
 
 }
+
+.scroll-parent {
+  position: relative;
+  width: 100vw;
+  height: 20rem;
+  overflow-x: hidden;
+}
+
+.scroll-element {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  margin: 2rem 0;
+}
+
+.primary {
+  animation: primary 35s linear infinite;
+}
+
+.secondary {
+  animation: secondary 35s linear infinite;
+}
+
+.scroll-element img {
+  width: 16%;
+  height: 16rem;
+  background-color: #000;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
