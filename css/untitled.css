@@ -516,3 +516,9 @@ vid_btn {
     left: 0%;
   }
 }
+
+
+.thermometer {
+  margin:auto;
+  width:100%;
+}
