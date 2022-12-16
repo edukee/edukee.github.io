@@ -473,16 +473,16 @@ vid_btn {
 .scroll-parent {
   position: relative;
   width: 100vw;
-  height: 20rem;
+  height: 31.3vw;
   overflow-x: hidden;
 }
 
 .scroll-element {
   width: inherit;
-  height: inherit;
+  height: 24vw;
   position: absolute;
   left: 0%;
-  margin: 2rem 0;
+  margin: 3vw 0;
 }
 
 .primary {
@@ -494,9 +494,9 @@ vid_btn {
 }
 
 .scroll-element img {
-  width: 16%;
-  height: 16rem;
-  background-color: #000;
+  width: 18vw;
+  height: 24vw;
+  margin: 0
 }
 
 @keyframes primary {
