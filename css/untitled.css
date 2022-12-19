@@ -472,7 +472,7 @@ vid_btn {
 
 .scroll-parent {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 31.3vw;
   overflow-x: hidden;
 }
