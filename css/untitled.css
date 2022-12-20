@@ -522,3 +522,33 @@ vid_btn {
   margin:auto;
   width:100%;
 }
+
+.click {
+  z-index: 2; 
+  width: 10rem;
+  top: -5rem;
+  right: -4rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.click-text {
+  position: absolute; 
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  transform: rotateZ(17deg);
+  z-index: 5;
+}
+
+.rot-star {
+  animation: rotating 15s linear infinite;
+}
+
+@keyframes rotating {
+  100% {
+    transform: rotate(360deg);
+  }
+}
