@@ -552,3 +552,16 @@ vid_btn {
     transform: rotate(360deg);
   }
 }
+
+.embed-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
